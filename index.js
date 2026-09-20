@@ -1,3 +1,4 @@
+require('dns').setDefaultResultOrder('ipv4first');
 "use strict";
 
 const { addLog, getLogs } = require("./logger");
