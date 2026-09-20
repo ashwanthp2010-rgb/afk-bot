@@ -8,6 +8,7 @@ const { GoalBlock } = goals;
 const config = require("./settings.json");
 const express = require("express");
 const http = require("http");
+const { SocksProxyAgent } = require("socks-proxy-agent");
 const https = require("https");
 
 // ============================================================
@@ -997,6 +998,8 @@ app.post("/stop", (req, res) => {
   }
 
   clearAllIntervals();
+  const proxyUrl = process.env.SOCKS_PROXY;
+const agent = proxyUrl ? new SocksProxyAgent(proxyUrl) : undefined;
   addLog("[Control] Bot stopped");
 
   res.json({ success: true });
