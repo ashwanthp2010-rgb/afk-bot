@@ -1,87 +1,10 @@
 {
-  "name": "AFK Bot",
-  "bot-account": {
-    "username": "njan bot",
-    "password": "",
-    "type": "offline"
-  },
   "server": {
     "ip": "vyra.smp.play.hosting",
-    "port": 25824,
-    "version": "",
-    "try-creative": false
+    "port": 25946,
+    "version": false
   },
-  "position": {
-    "enabled": true,
-    "x": 40000,
-    "y": 100,
-    "z": -40000
-  },
-  "utils": {
-    "auto-auth": {
-      "enabled": true,
-      "password": "chalol78"
-    },
-    "anti-afk": {
-      "enabled": true,
-      "sneak": true
-    },
-    "chat-messages": {
-      "enabled": true,
-      "repeat": true,
-      "repeat-delay": 120,
-      "messages": [
-        "nee aara",
-        "yoo bro!",
-        "i am bot!"
-      ]
-    },
-    "chat-log": true,
-    "auto-reconnect": true,
-    "auto-reconnect-delay": 2000,
-    "max-reconnect-delay": 120000
-  },
-  "movement": {
-    "enabled": true,
-    "circle-walk": {
-      "enabled": true,
-      "radius": 4,
-      "speed": 3000
-    },
-    "look-around": {
-      "enabled": true,
-      "interval": 5000
-    },
-    "random-jump": {
-      "enabled": true,
-      "interval": 10000
-    }
-  },
-  "modules": {
-    "avoidMobs": true,
-    "combat": true,
-    "beds": false,
-    "chat": true,
-    "console-commands": true
-  },
-  "combat": {
-    "attack-mobs": true,
-    "auto-eat": true
-  },
-  "beds": {
-    "pick-up-day": false,
-    "place-night": false
-  },
-  "discord": {
-    "enabled": false,
-    "webhookUrl": "YOUR_DISCORD_WEBHOOK_URL_HERE",
-    "events": {
-      "connect": true,
-      "disconnect": true,
-      "chat": false
-    }
-  },
-  "chat": {
-    "respond": true
+  "bot": {
+    "username": "AFK_Bot"
   }
 }
