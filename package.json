@@ -1,7 +1,7 @@
 {
-  "name": "minecraft-afk-bot",
-  "version": "2.5.0",
-  "description": "Robust AFK bot for Minecraft servers with infinite uptime.",
+  "name": "afk-bot",
+  "version": "1.0.0",
+  "description": "24/7 Minecraft AFK Bot with Web Control Dashboard",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
@@ -11,5 +11,8 @@
     "mineflayer": "^4.20.1",
     "mineflayer-pathfinder": "^2.4.5",
     "socks-proxy-agent": "^8.0.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
